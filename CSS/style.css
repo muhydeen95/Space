@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #66799e;
+    text-align: left;
+    background-color: #fff;
+}
+
+header{
+    background: indigo;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+section{
+    margin-bottom: 7%;
+}
+
+section p{
+    color: #66799E;
+    font-weight: 500;
+    line-height: 1.6;
+    font-size: 1.2em;
+}
+
+a .nav-link{
+    color: #ffffff;
+}
+
+#banner{
+    background: url(../Images/hero.jpg);
+    color: #ffffff;
+    padding: 96px 0px;
+}
+
+#banner h1{
+    padding-top: 5%;
+    font-size: 2.3em;
+}
+
+#banner p{
+    color: #fff;
+    margin-top: 3%;
+}
+
+#feature .fas{
+    font-size: 5em;
+    margin-bottom: 5%;
+}
+
+#pricing h2,ul li{
+    color: #66799e;
+}
+
+#pricing strong{
+    font-size: 3em;
+    color: #005ad4;
+}
+
+#pricing strong sup{
+    font-size: .5em;
+}
+
+#location div button btn-default:hover{
+    background: #fff;
+    color: #005ad4;
+}
+
+.progress-wrapper{
+    margin: 40px auto;
+    padding: 50px;
+    background: #fff;
+    box-shadow: 0px 2px 7px 1px rgb(143, 141, 141);
+}
+
+.progress{
+    width: 100%;
+    height: 10px;
+    margin: 10px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 4%;
+}
+
+.eighty-five{
+    width: 85%;
+    height: 10px;
+    background: blue;
+}
+
+.eighty-five{
+    animation: move 1s 1 alternate;
+}
+
+@keyframes move {
+    from{
+        transform: translateX(0%);
+    }
+    
+    to{
+        transform: translateX(85%);
+    }
+}
+
+.strecth{
+    background: #ffffff;
+    padding: 30px  5px 10px 5px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.explore{
+    margin-top: 7%;
+}
+
+.icon-wrapper i{
+    color: blue;
+    font-size: 3.5em;
+    display: block;
+}
+
+
+.section-title h2{
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+.card{
+    margin: 30px 0 15% 0;
+}
+
+.card .card-body{
+    font-size: .8em;
+}
+
+.card button{
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 1.15em;
+    padding: .5em;
+}
+
+.card-body ul{
+    margin: 0;
+    padding: 5px 0;
+}
+
+.card-body ul li{
+    margin: 0;
+    list-style-type: none;
+}
+
+.card-body ul li .fas{
+    font-size: 20px;
+    color: #003366;
+    margin: 5px;
+    padding: 3px;
+}
+
+.star{
+    padding-bottom: 15px;
+}
+
+#trending{
+    padding-top: 5%;
+}
+
+#pricing .card .card-header{
+    background: transparent;
+}
+
+#recommendation, #location{
+    background: #f3f7fa;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#recommendation i{
+    color: #ffff66;
+    margin: 2% 0 2% 0;
+}
+
+.star span:last-child{
+    background: #11ab7c;
+    border-radius: 15px;
+    padding: 1.6px 9.4px;
+    margin: 0 0 0 11.2px;
+    font-size: .8em;
+    color: #fff;
+}
+
+.star .fa-star{
+    color: #ffff66;
+}
+
+footer{
+    background: #2a354f;
+    color: #ffffff;
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+
+footer ul li h6{
+    color: #fff;
+}
+
+footer p, ul li a{
+    font-size: 1em;
+    color: #66799e;
+}
+
+footer ul li a:hover{
+    color: #fff;
+    list-style-type: none;
+}
+
+footer ul li{
+    list-style-type: none;
+    padding: 5px;    
+}
+
+.sub-paragraph{
+    font-size: .9em;
+}
+
+.sub-paragraph a, .copyright{
+    color: #fff;
+}
+
+.copyright{
+    padding-top: 5%;
+    font-size: .9em;
+}
+
+#cities h3,#trending h3{
+    margin-bottom: 2%;
+    font-size: 1.3em;
+}
+
+#cities .card img{
+    font-size: 1em;
+    margin-right: .5em;
+    transition: .5s;
+    filter: brightness(70%);
+    cursor: pointer;
+}
+
+#cities .card img:hover{
+    transform: scale(0.97);
+    filter: brightness(100%)
+}
+
+.fa-check{
+    font-size: 1.2em;
+    color: #00c9a7;
+}
+
+.fa-times{
+    color: red;
+}
+
+.icon-wrapper-1{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 1em;
+}
+
+.icon-wrapper-1 i{
+    font-size: 3em;
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+.blue{
+    background: #cdf0ea;
+}
+
+.blue 
+.fa-calendar-check,
+ .fa-search, 
+ .fa-mouse-pointer
+ {
+    color: #3777df;
+}
+
+#trending .card{
+    position: relative;
+}
+
+#trending .card:hover{
+    top: 7px;
+}
