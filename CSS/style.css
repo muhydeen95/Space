@@ -48,11 +48,6 @@ a .nav-link{
     margin-top: 3%;
 }
 
-::placeholder {
-  color: red;
-  opacity: 1; /* Firefox */
-}
-
 #feature .fas{
     font-size: 5em;
     margin-bottom: 5%;
